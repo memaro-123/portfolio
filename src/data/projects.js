@@ -1,0 +1,43 @@
+export const projects = [
+  {
+    id: 'fishyfinder-web',
+    title: 'fishyfinder-web',
+    category: 'Web Tool / Tracker',
+    description: 'Real time California native fish identifier.',
+    tags: ['Tensorflow', 'Web App', 'Computer Vision'],
+    icon: '🎣',
+    iconColor: 'cyan',
+    repoUrl: 'https://github.com/memaro-123/fishyfinder-web',
+    demoUrl: 'https://memaro-123.github.io/fishyfinder-web/',
+    extraLinks: [
+      {
+        label: 'Training Model Repo',
+        url: 'https://github.com/memaro-123/fishyfinder',
+      },
+    ],
+  },
+  {
+    id: 'nomnomnotes',
+    title: 'nomnomnotes',
+    category: 'Recipes & Journal',
+    description: 'A minimalist digitial food rating social media site.',
+    tags: ['React/js', 'Playwright', 'SQLite3'],
+    icon: '🍲',
+    iconColor: 'amber',
+    repoUrl: 'https://github.com/memaro-123/nomnomnotes',
+    demoUrl: null,
+    extraLinks: [],
+  },
+  {
+    id: 'spotifystats',
+    title: 'spotifystats',
+    category: 'Music Analytics',
+    description: 'Spotify Listening Analytics Website.',
+    tags: ['React/js', 'Express'],
+    icon: '📊',
+    iconColor: 'emerald',
+    repoUrl: 'https://github.com/memaro-123/spotifystats',
+    demoUrl: 'https://memaro-123.github.io/spotifystats/',
+    extraLinks: [],
+  },
+];
